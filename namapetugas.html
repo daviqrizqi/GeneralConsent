@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Nama Petugas</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .selected {
+            background-color: #2563EB; /* Color for selected item */
+        }
+    </style>
+</head>
+    <body class="bg-blue-900 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-lg">
+        <h2 class="text-center text-2xl font-bold mb-4">Daftar Nama Petugas</h2>
+        <div class="max-h-80 overflow-y-auto">
+            <div class="flex items-center justify-between p-4 mb-2 bg-blue-500 text-white rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-blue-600 shadow-md onclick="toggleSelect(this)">
+                <div>
+                    <div class="text-lg">Daviq Zawwa Sofya</div>
+                    <div class="text-sm">NIP: 09725438729</div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.673 0-8 1.338-8 4v2h16v-2c0-2.662-5.327-4-8-4z"/>
+                </svg>
+            </div>
+            <div class="flex items-center justify-between p-4 mb-2 bg-blue-500 text-white rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-blue-600 shadow-md" onclick="toggleSelect(this)">
+                <div>
+                    <div class="text-lg">Indah Ramawati</div>
+                    <div class="text-sm">NIP: 09725438729</div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.673 0-8 1.338-8 4v2h16v-2c0-2.662-5.327-4-8-4z"/>
+                </svg>
+            </div>
+            <div class="flex items-center justify-between p-4 mb-2 bg-blue-500 text-white rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-blue-600 shadow-md" onclick="toggleSelect(this)">
+                <div>
+                    <div class="text-lg">Wahyu Sahri</div>
+                    <div class="text-sm">NIP: 09725438729</div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.673 0-8 1.338-8 4v2h16v-2c0-2.662-5.327-4-8-4z"/>
+                </svg>
+            </div>
+            <div class="flex items-center justify-between p-4 mb-2 bg-blue-500 text-white rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-blue-600 shadow-md" onclick="toggleSelect(this)">
+                <div>
+                    <div class="text-lg">Sarah Yesika</div>
+                    <div class="text-sm">NIP: 09725438729</div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.673 0-8 1.338-8 4v2h16v-2c0-2.662-5.327-4-8-4z"/>
+                </svg>
+            </div>
+            <div class="flex items-center justify-between p-4 mb-2 bg-blue-500 text-white rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-blue-600 shadow-md" onclick="toggleSelect(this)">
+                <div>
+                    <div class="text-lg">Example Name</div>
+                    <div class="text-sm">NIP: 1234567890</div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 12c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm0 2c-2.673 0-8 1.338-8 4v2h16v-2c0-2.662-5.327-4-8-4z"/>
+                </svg>
+            </div>
+        </div>
+        <div class="text-center mt-6">
+            <button class="w-40 bg-blue-700 text-white px-4 py-1 rounded-lg shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50" onclick="window.location.href='./no-rm.html'">Login</button>
+        </div>
+    </div>
+
+    <!-- <script>
+        function toggleSelect(element) {
+            // Remove the 'selected' class from all items
+            document.querySelectorAll('.list-item').forEach(item => item.classList.remove('selected'));
+            // Add the 'selected' class to the clicked item
+            element.classList.add('selected');
+        }
+    </script> -->
+</body>
+</html>
